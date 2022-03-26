@@ -6,7 +6,7 @@ its build with HTML & CSS with SASS .
 
 I use liberary for font icon it's font awesome .
 
-### live site :
+### live site : https://omarelbastawesy.github.io/FullyLandingPage/
 
 this is style ::
 

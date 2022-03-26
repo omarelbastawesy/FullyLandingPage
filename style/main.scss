@@ -1,0 +1,432 @@
+// start global rules
+@use "./mobile.scss";
+
+$pink: hsl(322, 100%, 66%);
+$light-pink: hsl(321, 100%, 78%);
+$light-red: hsl(0, 100%, 63%);
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Very-Pale-Blue: hsl(207, 100%, 98%);
+$head-font: "Poppins", sans-serif;
+$body-font: "Open Sans", sans-serif;
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  @media (min-width: 767px) {
+    max-width: 750px;
+  }
+  @media (max-width: 768px) {
+    max-width: 750px;
+  }
+  @media (min-width: 992px) {
+    max-width: 950px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1150px;
+  }
+  @media (min-width: 1440px) {
+    max-width: 1300px;
+  }
+}
+
+// end global rules
+
+// start header
+.header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 65px auto;
+    .logo {
+      width: 190px;
+      img {
+        width: 100%;
+      }
+    }
+    button {
+      padding: 7px 30px;
+      background-color: transparent;
+      border: solid $pink 1px;
+      cursor: pointer;
+      border-radius: 25px;
+      text-transform: capitalize;
+      font-family: $body-font;
+      color: $pink;
+      font-size: 15px;
+      font-weight: 400;
+      box-shadow: 0px 0px 5px 0px $light-pink;
+      &:hover {
+        border-color: $light-pink;
+        color: $light-pink;
+      }
+    }
+  }
+}
+// end header
+
+// start landing
+.landing {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .head {
+      font-family: $head-font;
+      margin: 120px 0 15px;
+    }
+    p {
+      font-family: $body-font;
+      margin: 15px 0 15px;
+      line-height: 1.6;
+      max-width: 500px;
+    }
+    button {
+      padding: 20px 85px;
+      margin: 15px 0px;
+      background-color: $pink;
+      border: solid $pink 1px;
+      cursor: pointer;
+      border-radius: 45px;
+      text-transform: capitalize;
+      font-family: $body-font;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      box-shadow: 0px 0px 3px 0px #0000005e;
+      &:hover {
+        border-color: $light-pink;
+        background-color: $light-pink;
+        color: $Very-Pale-Blue;
+        box-shadow: 0px 3px 7px 0px #0000005e;
+      }
+    }
+    img {
+      width: 100%;
+      margin: 70px 0px;
+    }
+  }
+}
+// end landing
+
+// start analiz
+.analiz {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .count {
+      margin: 40px;
+      .con {
+        font-family: $body-font;
+        font-weight: 700;
+        font-size: 100px;
+      }
+      p {
+        font-family: $body-font;
+        color: #777;
+        text-align: center;
+        font-size: 25px;
+      }
+    }
+  }
+}
+// end analiz
+
+// start slash
+.slash {
+  img {
+    width: 100%;
+  }
+}
+// end slash
+
+// start grow
+.grow {
+  background-color: $Very-Pale-Blue;
+  padding: 75px 0;
+  margin-top: -10px;
+  .container {
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      max-width: 45%;
+      .head {
+        font-family: $head-font;
+        font-size: 30px;
+      }
+      p {
+        font-family: $body-font;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    }
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+// end grow
+
+// start slash2
+.slash2 {
+  img {
+    width: 100%;
+  }
+}
+// end slash2
+
+// start flowing
+.flowing {
+  margin: 150px 0;
+  .container {
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    align-items: center;
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+    .text {
+      max-width: 45%;
+      .head {
+        font-family: $head-font;
+        font-size: 30px;
+      }
+      p {
+        font-family: $body-font;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+// end flowing
+
+// start slash3
+.slash3 {
+  img {
+    width: 100%;
+  }
+}
+// end slash3
+
+// start users
+.users {
+  background-color: $Very-Pale-Blue;
+  padding: 75px 0;
+  margin-top: -10px;
+  .container {
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      max-width: 45%;
+      .head {
+        font-family: $head-font;
+        font-size: 30px;
+      }
+      p {
+        font-family: $body-font;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    }
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+// end users
+
+// start slash4
+.slash4 {
+  img {
+    width: 100%;
+  }
+}
+// end slash4
+
+// start qustion
+.qustion {
+  .container {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    p {
+      font-family: $head-font;
+      font-size: 40px;
+    }
+    button {
+      padding: 20px 85px;
+      margin: 15px 0px;
+      background-color: $pink;
+      border: solid $pink 1px;
+      cursor: pointer;
+      border-radius: 45px;
+      text-transform: capitalize;
+      font-family: $body-font;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      box-shadow: 0px 0px 3px 0px #0000005e;
+      &:hover {
+        border-color: $light-pink;
+        background-color: $light-pink;
+        color: $Very-Pale-Blue;
+        box-shadow: 0px 3px 7px 0px #0000005e;
+      }
+    }
+  }
+}
+// end qustion
+
+// start slash5
+.slash5 {
+  img {
+    width: 100%;
+  }
+}
+// end slash5
+
+// start footer
+.footer {
+  background-color: $Very-Dark-Cyan;
+  padding: 50px 0;
+  margin-top: -10px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25%;
+    .info {
+      .logo {
+        width: 200px;
+        img {
+          width: 100%;
+        }
+      }
+      p {
+        max-width: 300px;
+        font-family: $body-font;
+        color: white;
+        margin: 14px 0;
+      }
+      .phone {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+        p {
+          font-family: $body-font;
+          color: white;
+          margin: 2px 0;
+        }
+      }
+      .mail {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+        p {
+          font-family: $body-font;
+          color: white;
+          margin: 14px 0;
+        }
+      }
+    }
+    .contact {
+      flex: 1;
+      .head {
+        font-family: $head-font;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+      }
+      p {
+        max-width: 300px;
+        font-family: $body-font;
+        color: white;
+      }
+      form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        .in {
+          width: 65%;
+          border-color: transparent;
+          height: 40px;
+          padding: 0 20px;
+          border-radius: 8px;
+          &:focus {
+            outline: none;
+          }
+        }
+        .out {
+          width: 30%;
+          color: white;
+          background-color: $pink;
+          height: 40px;
+          font-family: $body-font;
+          border-color: transparent;
+          border-radius: 8px;
+          font-weight: 600;
+          cursor: pointer;
+          &:focus {
+            outline: none;
+          }
+          &:hover {
+            background-color: $light-pink;
+          }
+        }
+      }
+    }
+  }
+}
+// end footer
+
+// start links
+.links {
+  background-color: $Very-Dark-Cyan;
+  padding: 20px 0;
+  .container {
+    display: flex;
+    gap: 25px;
+    a {
+      color: white;
+      &:hover .fa {
+        color: #1876f2;
+      }
+      &:hover .in {
+        color: #ed4a5f;
+      }
+      &:hover .tw {
+        color: #5da9dd;
+      }
+      i {
+        font-size: 40px;
+        transition: 0.1s;
+      }
+    }
+  }
+}
+// end links

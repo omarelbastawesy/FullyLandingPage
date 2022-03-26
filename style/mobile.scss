@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .analiz {
+    .container {
+      flex-direction: column;
+    }
+  }
+  .grow {
+    .container {
+      flex-direction: column-reverse;
+      .text {
+        max-width: 100% !important;
+        text-align: center;
+      }
+    }
+  }
+  .flowing {
+    .container {
+      flex-direction: column;
+      .text {
+        max-width: 100% !important;
+        text-align: center;
+      }
+    }
+  }
+  .users {
+    .container {
+      flex-direction: column-reverse;
+      .text {
+        max-width: 100% !important;
+        text-align: center;
+      }
+    }
+  }
+  .footer {
+    .container {
+      flex-direction: column-reverse;
+      gap: 65px !important;
+    }
+  }
+}

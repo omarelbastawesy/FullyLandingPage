@@ -15,3 +15,6 @@ this is style ::
 
 ## mobile:
 ![mobile-design](https://user-images.githubusercontent.com/102428312/160254649-c61f170c-c117-47de-8e24-d63a81b7a081.jpg)
+
+
+![desktop-design](https://user-images.githubusercontent.com/102428312/174333467-b35d5e3f-ebe2-44a0-b136-3256ef6514db.jpg)
